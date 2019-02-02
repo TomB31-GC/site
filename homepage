@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
- <title>Blitz Bot </title><link rel=""icon"" type=""png"" href=""https://images-ext-1.discordapp.net/external/zzQr2AWuXUo9jWwxGJaUqSso4tGSqjrJu0bUKoUOKWE/https/cdn.discordapp.com/avatars/533604970147086358/dfa52ca3b2c3e34dff35d6ba932d226a.png"">
+ <title>Blitz Bot </title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel=""icon"" type=""png"" href=""https://images-ext-1.discordapp.net/external/zzQr2AWuXUo9jWwxGJaUqSso4tGSqjrJu0bUKoUOKWE/https/cdn.discordapp.com/avatars/533604970147086358/dfa52ca3b2c3e34dff35d6ba932d226a.png"">
 <style>
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
