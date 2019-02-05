@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html>
- <title>Blitz Bot </title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel=""icon"" type=""png"" href=""https://images-ext-1.discordapp.net/external/zzQr2AWuXUo9jWwxGJaUqSso4tGSqjrJu0bUKoUOKWE/https/cdn.discordapp.com/avatars/533604970147086358/dfa52ca3b2c3e34dff35d6ba932d226a.png"">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
   background-image: url('https://i.imgur.com/413hXJo.jpg');
   min-height: 100%;
+  
   background-position: center;
   background-size: cover;
 }
 </style>
 <body>
-
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+  	
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="https://blitznetwork.club/" class="w3-bar-item w3-button w3-theme-l1"><font color="white">Home</a>
+    <a href="moderation" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Moderation</a>
+    <a href="utility" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Utility</a>
+    <a href="configuration" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Configuration</a>
+    <a href="fun" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Fun</a>
+    <a href="audio" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Audio</a>
+  </div>
+</div>
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
   <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    Logo
+    
   </div>
   <div class="w3-display-middle">
     <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
