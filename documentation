@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Commands List - Nightbot Docs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="https://docs.nightbot.tv/favicon.ico">
+<link rel="stylesheet" href="https://docs.nightbot.tv/bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://docs.nightbot.tv/bower_components/highlightjs/styles/monokai_sublime.css">
+<link rel="stylesheet" href="https://docs.nightbot.tv/styles/raneto.css">
+<link rel="stylesheet" href="https://docs.nightbot.tv/styles/ghostdown.css">
+
+<style>
+body  {
+  
+    background: url("https://i.imgur.com/413hXJo.jpg") no-repeat;
+    background-size: cover;
+    height: 1080px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+    .content code {
+      color: #c7254e;
+      background-color: #f9f2f4;
+    }
+  </style>
+</head>
+<body class="page-commands-commandlist">
+
+<header class="header">
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-6">
+<a href="https://docs.nightbot.tv/" class="logo">Nightbot Docs</a>
+</div>
+<div class="col-sm-6">
+
+</div>
+</form>
+</div>
+</div>
+</div>
+</header>
+
+<h1><font color="#346b66"><b><center>Keep in mind that i'm constantly updating this</center></b></h1>
+<div class="col-sm-9">
+<section class="content">
+<h1 class="title"><center>Commands List</center></h1>
+<p>These are the default commands for Nightbot. Find out more information about each command with its related link.</p>
+<ul>
+<div align="left">
+<font color="#dbdbdb">
+<li><code>!nightbot</code><ul>
+<li><code>join</code> - Force Nightbot to Join your Channel (Only in <a href="https://www.twitch.tv/nightbot">Nightbot&#39;s Chat</a>) [<strong>Owner Only</strong>] </li>
+<li><code>part</code> or <code>leave</code> - Force Nightbot to Leave your Channel [<strong>Owner Only</strong>]</li>
+</ul>
+</li>
+<li><code>!commands</code> - Link to Command Page for that Channel [<a href="https://docs.nightbot.tv/commands/commands"><em>more info</em></a>]<ul>
+<li><code>add</code> - Add Custom Command to Nightbot</li>
+<li><code>edit</code> - Edit existing Custom Command</li>
+<li><code>delete</code> - Delete existing Custom Command from Nightbot</li>
+</ul>
+</li>
+<li><code>!commercial</code> - Run a Commercial for Specified Duration [<a href="https://docs.nightbot.tv/commands/commercial"><em>more info</em></a>]</li>
+<li><code>!filters</code> - Manage existing Spam Protection Filters [<a href="https://docs.nightbot.tv/commands/filters"><em>more info</em></a>]</li>
+<li><code>!permit</code> - Allows User to Temporarily Post Links [<a href="https://docs.nightbot.tv/spam-protection/links"><em>more info</em></a>]</li>
+<li><code>!game</code> - Show Current Game for that Channel [<a href="https://docs.nightbot.tv/commands/game"><em>more info</em></a>]<ul>
+<li><code>&lt;game&gt;</code> - Set Current Game for that Channel</li>
+</ul>
+</li>
+<li><code>!poll</code> [<a href="https://docs.nightbot.tv/commands/poll"><em>more info</em></a>]<ul>
+<li><code>new</code> - Create a new Strawpoll to vote on</li>
+<li><code>results</code> - View Current Results of Latest Strawpoll</li>
+</ul>
+</li>
+<li><code>!regulars</code> [<a href="https://docs.nightbot.tv/commands/regulars"><em>more info</em></a>]<ul>
+<li><code>add</code> - Add Username to Regular UserLevel</li>
+<li><code>delete</code> - Delete Username from Regular UserLevel</li>
+</ul>
+</li>
+<li><code>!songs</code> [<a href="https://docs.nightbot.tv/commands/songs"><em>more info</em></a>]<ul>
+<li><code>current</code> - Display Current Song from AutoDJ</li>
+<li><code>delete</code> - Delete Existing Song from the Song Queue</li>
+<li><code>list</code> - Link to Songlist for that Channel</li>
+<li><code>playlist</code> - Link to Playlist for that Channel</li>
+<li><code>next</code> - Display Next Song from AutoDJ</li>
+<li><code>request</code> - Add Song into Song Queue</li>
+<li><code>skip</code> - Skip the Currently Playing Song in AutoDJ</li>
+<li><code>save</code> - Save the Currently Playing Song into user Playlist</li>
+<li><code>promote</code> - Move Song to be Next Playing Song</li>
+<li><code>volume</code> - View and Change Current AutoDJ Volume</li>
+<li><code>play</code> - Start the Playing of AutoDJ (must be open in browser)</li>
+<li><code>pause</code> - Pause the Playing of AutoDJ (must be open in browser)</li>
+</ul>
+</li>
+<li><code>!title</code> - Show Current Title for that Channel [<a href="https://docs.nightbot.tv/commands/title"><em>more info</em></a>]<ul>
+<li><code>&lt;title&gt;</code> - Set Current Title for that Channel</li>
+</ul>
+</li>
+<li><code>!winner</code> - Get Random Chatter from your Channel [<a href="https://docs.nightbot.tv/commands/winner"><em>more info</em></a>]</li>
+</ul>
+<div class="page-meta clearfix">
+<div class="contact-support pull-left">
+<span class="glyphicon glyphicon-comment"></span> Need more help? <a href="https://discord.gg/9pVhkag" target="_blank">Join the support server!</a>
+</div>
+<div class="last-updated pull-right">
+
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+
+<footer class="footer">
+<div class="container-fluid">
+<p class="copyright pull-right">Copyright &copy; 2018 - <a href="http://raneto.com">Powered by Raneto</a></p>
+</div>
+</footer>
+
+<script src="https://docs.nightbot.tv/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="https://docs.nightbot.tv/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://docs.nightbot.tv/bower_components/highlightjs/highlight.pack.js"></script>
+<script src="https://docs.nightbot.tv/bower_components/fitvids/jquery.fitvids.js"></script>
+<script src="https://docs.nightbot.tv/bower_components/masonry/dist/masonry.pkgd.min.js"></script>
+<script src="https://docs.nightbot.tv/scripts/ghostdown.js"></script>
+<script src="https://docs.nightbot.tv/scripts/raneto.js"></script>
+</body>
+</html>
+</html>
