@@ -4,14 +4,29 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Commands List - Nightbot Docs</title>
+<title>Commands List - Blitz Docs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="https://docs.nightbot.tv/favicon.ico">
-<link rel="stylesheet" href="https://docs.nightbot.tv/bower_components/bootstrap/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://docs.nightbot.tv/bower_components/highlightjs/styles/monokai_sublime.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="https://i.imgur.com/x3Uy0AZ.png">
+<link rel="stylesheet"
 <link rel="stylesheet" href="https://docs.nightbot.tv/styles/raneto.css">
 <link rel="stylesheet" href="https://docs.nightbot.tv/styles/ghostdown.css">
+<body>
+<div class="w3-bar w3-green">
 
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    
+    <a href="https://blitznetwork.club/" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="https://blitznetwork.club/documentation/" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Documentation</a>
+    <a href="utility" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+  </div>
+</div>
+</body>
 <style>
 body  {
   
@@ -34,7 +49,7 @@ body  {
 <div class="container-fluid">
 <div class="row">
 <div class="col-sm-6">
-<a href="https://docs.nightbot.tv/" class="logo">Nightbot Docs</a>
+
 </div>
 <div class="col-sm-6">
 
@@ -45,7 +60,7 @@ body  {
 </div>
 </header>
 
-<h1><font color="#346b66"><b><center>Keep in mind that i'm constantly updating this</center></b></h1>
+<h1><font color="#96989b"><b><center>In the makings...</center></b></h1>
 <div class="col-sm-9">
 <section class="content">
 <h1 class="title"><center>Commands List</center></h1>
@@ -104,10 +119,10 @@ body  {
 </ul>
 <div class="page-meta clearfix">
 <div class="contact-support pull-left">
-<span class="glyphicon glyphicon-comment"></span> Need more help? <a href="https://discord.gg/9pVhkag" target="_blank">Join the support server!</a>
+<span class="glyphicon glyphicon-comment"></span> Still need help? <a href="https://community.nightdev.com/c/nightbot" target="_blank">Ask on the forums!</a>
 </div>
 <div class="last-updated pull-right">
-
+Last updated on 10th May 2017
 </div>
 </div>
 </section>
