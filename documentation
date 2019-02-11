@@ -7,23 +7,22 @@
 <title>Commands List - Blitz Docs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="shortcut icon" href="https://i.imgur.com/x3Uy0AZ.png">
 <link rel="stylesheet"
-<link rel="stylesheet" href="https://docs.nightbot.tv/styles/raneto.css">
+
 <link rel="stylesheet" href="https://docs.nightbot.tv/styles/ghostdown.css">
 <body>
-<div class="w3-bar w3-green">
-
+<div class="w3-top">
   <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-    
+  	
     <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    
-    <a href="https://blitznetwork.club/" class="w3-bar-item w3-button w3-theme-l1">Home</a>
-    <a href="https://blitznetwork.club/documentation" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Documentation</a>
-    <a href="utility" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="https://blitznetwork.club/" class="w3-bar-item w3-button w3-theme-l1"><font color="white">Home</a>
+    <a href="documentation" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Documentation</a>
+    <a href="About" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+
   </div>
 </div>
 </body>
@@ -59,8 +58,8 @@ body  {
 </div>
 </div>
 </header>
+<br> </br>
 
-<h1><font color="#96989b"><b><center>In the makings...</center></b></h1>
 <div class="col-sm-9">
 <section class="content">
 <h1 class="title"><center>Commands List</center></h1>
