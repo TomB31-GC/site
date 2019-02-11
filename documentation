@@ -31,6 +31,7 @@
 body  {
   
     background: url("https://i.imgur.com/413hXJo.jpg") no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     height: 1080px;
     text-align: center;
@@ -63,8 +64,8 @@ body  {
 
 <div class="col-sm-9">
 <section class="content">
-<h1 class="title"><center>Commands List</center></h1>
-<p>These are the default commands for Nightbot. Find out more information about each command with its related link.</p>
+<h1 class="title"><center><font color="#e8e8e8">Commands List</center></h1>
+<p>These are all the commands with a small description.</p>
 <ul>
 <div align="left">
 <font color="#dbdbdb">
@@ -119,10 +120,10 @@ body  {
 </ul>
 <div class="page-meta clearfix">
 <div class="contact-support pull-left">
-<span class="glyphicon glyphicon-comment"></span> Still need help? <a href="https://community.nightdev.com/c/nightbot" target="_blank">Ask on the forums!</a>
+<span class="glyphicon glyphicon-comment"></span> Still need help? <a href="https://discord.gg/9pVhkag" target="_blank">Ask in the support discord server!</a>
 </div>
 <div class="last-updated pull-right">
-Last updated on 10th May 2017
+Last updated on 11th Febuary 2019
 </div>
 </div>
 </section>
@@ -132,7 +133,7 @@ Last updated on 10th May 2017
 
 <footer class="footer">
 <div class="container-fluid">
-<p class="copyright pull-right">Copyright &copy; 2018 - <a href="http://raneto.com">Powered by Raneto</a></p>
+<p class="copyright pull-right">Copyright &copy; 2019 - <a href="http://blitznetwork.club">Powered by Tom</a></p>
 </div>
 </footer>
 
