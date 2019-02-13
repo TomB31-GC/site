@@ -69,29 +69,27 @@ body  {
 <ul>
 <div align="left">
 <font color="#dbdbdb">
-<li><code>!nightbot</code><ul>
-<li><code>join</code> - Force Nightbot to Join your Channel (Only in <a href="https://www.twitch.tv/nightbot">Nightbot&#39;s Chat</a>) [<strong>Owner Only</strong>] </li>
-<li><code>part</code> or <code>leave</code> - Force Nightbot to Leave your Channel [<strong>Owner Only</strong>]</li>
-</ul>
-</li>
-<li><code>!commands</code> - Link to Command Page for that Channel [<a href="https://docs.nightbot.tv/commands/commands"><em>more info</em></a>]<ul>
-<li><code>add</code> - Add Custom Command to Nightbot</li>
-<li><code>edit</code> - Edit existing Custom Command</li>
-<li><code>delete</code> - Delete existing Custom Command from Nightbot</li>
-</ul>
-</li>
-<li><code>!commercial</code> - Run a Commercial for Specified Duration [<a href="https://docs.nightbot.tv/commands/commercial"><em>more info</em></a>]</li>
-<li><code>!filters</code> - Manage existing Spam Protection Filters [<a href="https://docs.nightbot.tv/commands/filters"><em>more info</em></a>]</li>
-<li><code>!permit</code> - Allows User to Temporarily Post Links [<a href="https://docs.nightbot.tv/spam-protection/links"><em>more info</em></a>]</li>
-<li><code>!game</code> - Show Current Game for that Channel [<a href="https://docs.nightbot.tv/commands/game"><em>more info</em></a>]<ul>
-<li><code>&lt;game&gt;</code> - Set Current Game for that Channel</li>
-</ul>
-</li>
+
+
+
+
+<li><code>-kick</code> - Kicks a specific user. (Usage:<i> -kick &lt;@user&gt; You've been kicked</i>) </li>
+<li><code>-ban</code> - Bans a specific user. (Usage:<i> -ban &lt;@user&gt; You've been banned</i>) </li>
+<li><code>-unban</code> - Unbans a specific user. (Usage:<i> -unban &lt;@user&gt;</i>) </li>
+<li><code>-mute</code> - Mutes a specific user. (Usage:<i> -mute &lt;@user&gt; You've been muted</i>) </li>
+<li><code>-unmute</code> - Unmutes a specific user. (Usage:<i> -unban &lt;@user&gt;</i>) </li>
+<li><code>-filter</code> - Show Current Game for that Channel<ul>
+<li><code>add</code> - Add a word/string to the filter (Usage:<i> -filter add poop</i>)</li>
+<li><code>remove</code> - Remove a word/string to the filter (Usage:<i> -filter remove poop</i>)</li>
+<li><code>list</code> - Returns a list of all filtered text</li></ul></li>
+
+
 <li><code>!poll</code> [<a href="https://docs.nightbot.tv/commands/poll"><em>more info</em></a>]<ul>
 <li><code>new</code> - Create a new Strawpoll to vote on</li>
 <li><code>results</code> - View Current Results of Latest Strawpoll</li>
 </ul>
 </li>
+<h2><font color="#dbdbdb">Commands</h2>
 <li><code>!regulars</code> [<a href="https://docs.nightbot.tv/commands/regulars"><em>more info</em></a>]<ul>
 <li><code>add</code> - Add Username to Regular UserLevel</li>
 <li><code>delete</code> - Delete Username from Regular UserLevel</li>
