@@ -72,7 +72,7 @@ body  {
 
 
 
-
+<h2><font color="#dbdbdb">Moderation</h2>
 <li><code>-kick</code> - Kicks a specific user. (Usage:<i> -kick &lt;@user&gt; You've been kicked</i>) </li>
 <li><code>-ban</code> - Bans a specific user. (Usage:<i> -ban &lt;@user&gt; You've been banned</i>) </li>
 <li><code>-unban</code> - Unbans a specific user. (Usage:<i> -unban &lt;@user&gt;</i>) </li>
@@ -84,12 +84,8 @@ body  {
 <li><code>list</code> - Returns a list of all filtered text</li></ul></li>
 
 
-<li><code>!poll</code> [<a href="https://docs.nightbot.tv/commands/poll"><em>more info</em></a>]<ul>
-<li><code>new</code> - Create a new Strawpoll to vote on</li>
-<li><code>results</code> - View Current Results of Latest Strawpoll</li>
-</ul>
-</li>
-<h2><font color="#dbdbdb">Commands</h2>
+
+<h2><font color="#dbdbdb">Utility</h2>
 <li><code>!regulars</code> [<a href="https://docs.nightbot.tv/commands/regulars"><em>more info</em></a>]<ul>
 <li><code>add</code> - Add Username to Regular UserLevel</li>
 <li><code>delete</code> - Delete Username from Regular UserLevel</li>
