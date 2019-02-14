@@ -1,45 +1,102 @@
 
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Commands List - Blitz Docs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="https://i.imgur.com/x3Uy0AZ.png">
+<link rel="stylesheet"
+
+<link rel="stylesheet" href="https://codepen.io/hardstylesdev/pen/MLGypR.css">
+<link rel="stylesheet" href="https://docs.nightbot.tv/styles/ghostdown.css">
+<body>
 <div class="w3-top">
-<div class="w3-bar w3-theme w3-top w3-left-align w3-large"><a class="w3-bar-item w3-button w3-theme-l1" href="https://blitznetwork.club/"><span style="color: white;">Home</span></a> <a class="w3-bar-item w3-button w3-hide-small w3-hover-white" href="documentation">Documentation</a> <a class="w3-bar-item w3-button w3-hide-small w3-hover-white" href="About">About</a></div>
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+  	
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="https://blitznetwork.club/" class="w3-bar-item w3-button w3-theme-l1"><font color="white">Home</a>
+    <a href="documentation" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Documentation</a>
+    <a href="About" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+
+  </div>
 </div>
+</body>
+<style>
+body  {
+  
+    background: url("https://i.imgur.com/413hXJo.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1080px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+    .content code {
+      color: #c7254e;
+      background-color: #f9f2f4;
+    }
+  </style>
+</head>
+<body class="page-commands-commandlist">
+
 <header class="header">
-<div class="container-fluid">&nbsp;</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-6">
+
+</div>
+<div class="col-sm-6">
+
+</div>
+</form>
+</div>
+</div>
+</div>
 </header>
-<p>&nbsp;</p>
+<br> </br>
+
 <div class="col-sm-9">
-<section class="content"><center><span style="color: #e8e8e8;">Commands List</span></center>
+<section class="content">
+<h1 class="title"><center><font color="#e8e8e8">Commands List</center></h1>
 <p>These are all the commands with a small description.</p>
+<p>Syntax between <code>&lt; &gt;</code> is required & syntax between <code>[ ]</code> is optional.</p>
+<ul>
 <div align="left">
-<ul>
-<li><code>-kick</code> - Kicks a specific user. (Usage:<em> -kick &lt;@user&gt; You've been kicked</em>)</li>
-<li><code>-ban</code> - Bans a specific user. (Usage:<em> -ban &lt;@user&gt; You've been banned</em>)</li>
-<li><code>-unban</code> - Unbans a specific user. (Usage:<em> -unban &lt;@user&gt;</em>)</li>
-<li><code>-mute</code> - Mutes a specific user. (Usage:<em> -mute &lt;@user&gt; You've been muted</em>)</li>
-<li><code>-unmute</code> - Unmutes a specific user. (Usage:<em> -unban &lt;@user&gt;</em>)</li>
-<li><code>-filter</code> - Show Current Game for that Channel
-<ul>
-<li><code>add</code> - Add a word/string to the filter (Usage:<em> -filter add poop</em>)</li>
-<li><code>remove</code> - Remove a word/string to the filter (Usage:<em> -filter remove poop</em>)</li>
-<li><code>ldddist</code> - Returns a list of all filtered text</li>
-</ul>
-</li>
-<li><code>!poll</code> [<a href="https://docs.nightbot.tv/commands/poll"><em>more info</em></a>]
-<ul>
-<li><code>new</code> - Create a new Strawpoll to vote on</li>
-<li><code>results</code> - View Current Results of Latest Strawpoll</li>
-</ul>
-</li>
-</ul>
-<h2><span style="color: #dbdbdb;">Commands</span></h2>
-<ul>
-<li><code>!regulars</code> [<a href="https://docs.nightbot.tv/commands/regulars"><em>more info</em></a>]
-<ul>
+<font color="#dbdbdb">
+
+
+
+<h2><font color="#dbdbdb">Moderation</h2>
+<li><code>-kick</code> - Kicks a specific user. (Usage:<i> -kick &lt;@user&gt; You've been kicked</i>) </li>
+<li><code>-ban</code> - Bans a specific user. (Usage:<i> -ban &lt;@user&gt; You've been banned</i>) </li>
+<li><code>-unban</code> - Unbans a specific user. (Usage:<i> -unban &lt;@user&gt;</i>) </li>
+<li><code>-mute</code> - Mutes a specific user. (Usage:<i> -mute &lt;@user&gt; You've been muted</i>) </li>
+<li><code>-unmute</code> - Unmutes a specific user. (Usage:<i> -unban &lt;@user&gt;</i>) </li>
+<li><code>-filter</code> - Show Current Game for that Channel<ul>
+<li><code>add</code> - Add a word/string to the filter (Usage:<i> -filter add poop</i>)</li>
+<li><code>remove</code> - Remove a word/string to the filter (Usage:<i> -filter remove poop</i>)</li>
+<li><code>list</code> - Returns a list of all filtered text</li></ul></li>
+<li><code>-defaultrole</code> - Sets the default role of the server. New users will automatically receive this role. (Usage:<i> -defaultrole &lt;role name&gt;</i>) </li>
+<li><code>-perms</code> - Returns all permissions of a user. (Usage:<i> -perms &lt;@user&gt;</i>) </li>
+<li><code>-matchperms</code> - Returns different permissions between 2 users. (Usage:<i> -matchperms &lt;@user2&gt; [@user2]</i>) </li>
+<li><code>-purge</code> - Purges an amount of messages. (Usage:<i> -purge &lt;number&gt;</i>) </li>
+<li><code>-addrole</code> - Add a role to all/a user. (Usage:<i> -addrole &lt;@user/everyone&gt; &lt;role&gt;</i>) </li>
+<li><code>-removerole</code> - Remove a role from a user. (Usage:<i> -removerole &lt;@user&gt; &lt;role&gt;</i>) </li>
+<h2><font color="#dbdbdb">Utility</h2>
+<li><code>!regulars</code> [<a href="https://docs.nightbot.tv/commands/regulars"><em>more info</em></a>]<ul>
 <li><code>add</code> - Add Username to Regular UserLevel</li>
 <li><code>delete</code> - Delete Username from Regular UserLevel</li>
 </ul>
 </li>
-<li><code>!songs</code> [<a href="https://docs.nightbot.tv/commands/songs"><em>more info</em></a>]
-<ul>
+<li><code>!songs</code> [<a href="https://docs.nightbot.tv/commands/songs"><em>more info</em></a>]<ul>
 <li><code>current</code> - Display Current Song from AutoDJ</li>
 <li><code>delete</code> - Delete Existing Song from the Song Queue</li>
 <li><code>list</code> - Link to Songlist for that Channel</li>
@@ -54,22 +111,38 @@
 <li><code>pause</code> - Pause the Playing of AutoDJ (must be open in browser)</li>
 </ul>
 </li>
-<li><code>!title</code> - Show Current Title for that Channel [<a href="https://docs.nightbot.tv/commands/title"><em>more info</em></a>]
-<ul>
+<li><code>!title</code> - Show Current Title for that Channel [<a href="https://docs.nightbot.tv/commands/title"><em>more info</em></a>]<ul>
 <li><code>&lt;title&gt;</code> - Set Current Title for that Channel</li>
 </ul>
 </li>
 <li><code>!winner</code> - Get Random Chatter from your Channel [<a href="https://docs.nightbot.tv/commands/winner"><em>more info</em></a>]</li>
 </ul>
-</div>
 <div class="page-meta clearfix">
-<div class="contact-support pull-left">Still need help? <a href="https://discord.gg/9pVhkag" target="_blank" rel="noopener">Ask in the support discord server!</a></div>
-<div class="last-updated pull-right">Last updated on 11th Febuary 2019</div>
+<div class="contact-support pull-left">
+<span class="glyphicon glyphicon-comment"></span> Still need help? <a href="https://discord.gg/9pVhkag" target="_blank">Ask in the support discord server!</a>
+</div>
+<div class="last-updated pull-right">
+Last updated on 11th Febuary 2019
+</div>
 </div>
 </section>
 </div>
+</div>
+</div>
+
 <footer class="footer">
 <div class="container-fluid">
 <p class="copyright pull-right">Copyright &copy; 2019 - <a href="http://blitznetwork.club">Powered by Tom</a></p>
 </div>
 </footer>
+
+<script src="https://docs.nightbot.tv/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="https://docs.nightbot.tv/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://docs.nightbot.tv/bower_components/highlightjs/highlight.pack.js"></script>
+<script src="https://docs.nightbot.tv/bower_components/fitvids/jquery.fitvids.js"></script>
+<script src="https://docs.nightbot.tv/bower_components/masonry/dist/masonry.pkgd.min.js"></script>
+<script src="https://docs.nightbot.tv/scripts/ghostdown.js"></script>
+<script src="https://docs.nightbot.tv/scripts/raneto.js"></script>
+</body>
+</html>
+</html>
