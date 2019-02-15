@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,12 +63,16 @@ body  {
 </div>
 </header>
 <br> </br>
+ 
+    <h1 class="w3-jumbo w3-animate-top">DOCUMENTATION</h1>
 
+
+  </div>
 <div class="col-sm-9">
 <section class="content">
-<h1 class="title"><center><font color="#e8e8e8">Commands List</center></h1>
-<p>These are all the commands with a small description.</p>
-<p>Syntax between <code>&lt; &gt;</code> is required & syntax between <code>[ ]</code> is optional.</p>
+
+
+<p><font color="#e8e8e8">Syntax between <code>&lt; &gt;</code> is required & syntax between <code>[ ]</code> is optional.</p>
 <ul>
 <div align="left">
 <font color="#dbdbdb">
@@ -145,4 +150,4 @@ Last updated on 11th Febuary 2019
 <script src="https://docs.nightbot.tv/scripts/raneto.js"></script>
 </body>
 </html>
-</html>
+
