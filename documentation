@@ -6,10 +6,10 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Commands List - Blitz Docs</title>
+<title>Commands List - Blitz Docs </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="shortcut icon" href="https://i.imgur.com/x3Uy0AZ.png">
@@ -18,21 +18,23 @@
 <link rel="stylesheet" href="https://codepen.io/hardstylesdev/pen/MLGypR.css">
 <link rel="stylesheet" href="https://docs.nightbot.tv/styles/ghostdown.css">
 <body>
-<div class="w3-top">
-  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+<div class="w3-top " >
+  <div class="w3-bar w3-theme w3-animate-opacity w3-top w3-left-align w3-large">
   	
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1 " href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
     <a href="https://blitznetwork.club/" class="w3-bar-item w3-button w3-theme-l1"><font color="white">Home</a>
     <a href="documentation" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Documentation</a>
-    <a href="About" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="About" class="w3-bar-item w3-button w3-hide-small w3-hover-white ">About</a>
 
   </div>
 </div>
 </body>
+
 <style>
+
 body  {
   
-    background: url("https://i.imgur.com/413hXJo.jpg") no-repeat;
+    background: url("https://i.imgur.com/413hXJo.jpg ") no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 1080px;
@@ -46,7 +48,7 @@ body  {
     }
   </style>
 </head>
-<body class="page-commands-commandlist">
+<body class="page-commands-commandlist w3-animate-opacity">
 
 <header class="header">
 <div class="container-fluid">
@@ -64,11 +66,12 @@ body  {
 </header>
 <br> </br>
  
+  <hr class="w3-border-grey " style="margin:auto;width:10% " >
     <h1 class="w3-jumbo w3-animate-top">DOCUMENTATION</h1>
 
 
   </div>
-<div class="col-sm-9">
+<div class="col-sm-9 w3-animate-opacity" >
 <section class="content">
 
 
@@ -79,7 +82,7 @@ body  {
 
 
 
-<h2><font color="#dbdbdb">Moderation</h2>
+<h2><font color="#dbdbdb" >Moderation 🔧</h2>
 <li><code>-kick</code> - Kicks a specific user. (Usage:<i> -kick &lt;@user&gt; You've been kicked</i>) </li>
 <li><code>-ban</code> - Bans a specific user. (Usage:<i> -ban &lt;@user&gt; You've been banned</i>) </li>
 <li><code>-unban</code> - Unbans a specific user. (Usage:<i> -unban &lt;@user&gt;</i>) </li>
@@ -95,8 +98,8 @@ body  {
 <li><code>-purge</code> - Purges an amount of messages. (Usage:<i> -purge &lt;number&gt;</i>) </li>
 <li><code>-addrole</code> - Add a role to all/a user. (Usage:<i> -addrole &lt;@user/everyone&gt; &lt;role&gt;</i>) </li>
 <li><code>-removerole</code> - Remove a role from a user. (Usage:<i> -removerole &lt;@user&gt; &lt;role&gt;</i>) </li>
-<h2><font color="#dbdbdb">Utility</h2>
-<li><code>!regulars</code> [<a href="https://docs.nightbot.tv/commands/regulars"><em>more info</em></a>]<ul>
+<h2><font color="#dbdbdb">Audio 🎶</h2>
+<li><code>-play</code> Play a song<ul>
 <li><code>add</code> - Add Username to Regular UserLevel</li>
 <li><code>delete</code> - Delete Username from Regular UserLevel</li>
 </ul>
@@ -126,7 +129,7 @@ body  {
 <div class="contact-support pull-left">
 <span class="glyphicon glyphicon-comment"></span> Still need help? <a href="https://discord.gg/9pVhkag" target="_blank">Ask in the support discord server!</a>
 </div>
-<div class="last-updated pull-right">
+<div class="last-updated pull-right ">
 Last updated on 11th Febuary 2019
 </div>
 </div>
@@ -136,7 +139,7 @@ Last updated on 11th Febuary 2019
 </div>
 
 <footer class="footer">
-<div class="container-fluid">
+<div class="container-fluid ">
 <p class="copyright pull-right">Copyright &copy; 2019 - <a href="http://blitznetwork.club">Powered by Tom</a></p>
 </div>
 </footer>
@@ -150,4 +153,5 @@ Last updated on 11th Febuary 2019
 <script src="https://docs.nightbot.tv/scripts/raneto.js"></script>
 </body>
 </html>
+
 
