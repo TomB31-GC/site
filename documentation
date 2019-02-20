@@ -5,16 +5,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style type="text/css">
-.container {
-    -ms-overflow-style: none;  // IE 10+
-    overflow: -moz-scrollbars-none;  // Firefox
-}
-.container::-webkit-scrollbar { 
-    display: none;  // Safari and Chrome
-}
-}
-</style>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Commands List - Blitz Docs </title>
@@ -41,8 +31,10 @@
 </div>
 </body>
 
-</style>
 <style>
+::-webkit-scrollbar {
+  width: 0px;
+}
 
 body  {
   
