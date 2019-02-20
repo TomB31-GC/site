@@ -29,6 +29,7 @@
 
   </div>
 </div>
+
 </body>
 
 <style>
@@ -128,6 +129,9 @@ body  {
 </ul>
 </li>
 <li><code>!winner</code> - Get Random Chatter from your Channel [<a href="https://docs.nightbot.tv/commands/winner"><em>more info</em></a>]</li>
+<li></li>
+
+<a href="javascript:topFunction()"><b><center><font size="3">Go to top</font></center></b></a>
 </ul>
 <div class="page-meta clearfix">
 <div class="contact-support pull-left">
@@ -155,6 +159,30 @@ Last updated on 11th Febuary 2019
 <script src="https://docs.nightbot.tv/bower_components/masonry/dist/masonry.pkgd.min.js"></script>
 <script src="https://docs.nightbot.tv/scripts/ghostdown.js"></script>
 <script src="https://docs.nightbot.tv/scripts/raneto.js"></script>
+
+
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+
 </body>
 </html>
 
