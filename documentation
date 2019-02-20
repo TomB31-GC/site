@@ -1,6 +1,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,7 +30,12 @@
   </div>
 </div>
 </body>
-
+<style type="text/css">
+body {
+    overflow-y:hidden;
+}
+</style>
+</style>
 <style>
 
 body  {
