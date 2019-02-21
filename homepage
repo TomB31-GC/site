@@ -41,8 +41,8 @@ body, html {height: 100%}
   <div class="w3-display-middle">
     <h1 class="w3-jumbo w3-animate-top">BLITZ BOT</h1>
     <hr class="w3-border-grey" style="margin:auto;width:50%">
-	<h1><font size="5,5"><center>Members: 25027</center></font></h1>
-    <h1><font size="5,5"><center>Servers: 313</center></font></h1>
+	<h1><font size="5,5"><center>Members: {membercount}</center></font></h1>
+    <h1><font size="5,5"><center>Servers: {guildcount}</center></font></h1>
 
 
     
