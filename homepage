@@ -1,5 +1,5 @@
 <html>
 <head>
-  <link rel="stylesheet" href="/homepage.html">
+  <div w3-include-html="homepage.html"></div>
 </head>
 </html>
