@@ -49,7 +49,7 @@
       body,h1 {font-family: "Raleway", sans-serif}
       body, html {height: 100%}
       .bgimg {
-      background-image: url('https://i.imgur.com/413hXJo.jpg');
+      background-image: url('https://i.pinimg.com/originals/09/de/e4/09dee4c982837cf22626ca5ba124f5c3.jpg');
       min-height: 100%;
       background: url("https://i.imgur.com/413hXJo.jpg ") no-repeat;
       background-attachment: fixed;
