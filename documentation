@@ -104,26 +104,22 @@ body  {
 <li><code>-addrole</code> - Add a role to all/a user. (Usage:<i> -addrole &lt;@user/everyone&gt; &lt;role&gt;</i>) </li>
 <li><code>-removerole</code> - Remove a role from a user. (Usage:<i> -removerole &lt;@user&gt; &lt;role&gt;</i>) </li>
 <h2><font color="#dbdbdb">Audio 🎶</h2>
+
+<li><code>play</code> - Used to search & play music. (Usage: -play [YouTube song/URL])
+<li><code>stop</code> - Stop the current song, clear the queue & disconnect.</li>
+<li><code>pause</code> - Pause the current song.</li>
+<li><code>queue</code> - Display the current music queue. Also used to clear it. (Usage: -queue [clear])</li>
+<li><code>skip</code> - Skip to the next song in the queue.</li>
+<li><code>forward</code> - Skip X amount into the song. (Usage: -forward 5 minutes)</li>
+<li><code>loop</code> - Loop the current song indefinetly.</li>
+<li><code>rolesystem</code> - When enabled, the "Dj" role is required to use music commands</li>
+<li><code>volume</code> - Change the volume of the bot.</li>
+
+
+</li>
+<h2><font color="#dbdbdb">Hypixel </h2>
 <li><code>-play</code> Play a song<ul>
 <li><code>add</code> - Add Username to Regular UserLevel</li>
-<li><code>delete</code> - Delete Username from Regular UserLevel</li>
-</ul>
-</li>
-<li><code>!songs</code> [<a href="https://docs.nightbot.tv/commands/songs"><em>more info</em></a>]<ul>
-<li><code>current</code> - Display Current Song from AutoDJ</li>
-<li><code>delete</code> - Delete Existing Song from the Song Queue</li>
-<li><code>list</code> - Link to Songlist for that Channel</li>
-<li><code>playlist</code> - Link to Playlist for that Channel</li>
-<li><code>next</code> - Display Next Song from AutoDJ</li>
-<li><code>request</code> - Add Song into Song Queue</li>
-<li><code>skip</code> - Skip the Currently Playing Song in AutoDJ</li>
-<li><code>save</code> - Save the Currently Playing Song into user Playlist</li>
-<li><code>promote</code> - Move Song to be Next Playing Song</li>
-<li><code>volume</code> - View and Change Current AutoDJ Volume</li>
-<li><code>play</code> - Start the Playing of AutoDJ (must be open in browser)</li>
-<li><code>pause</code> - Pause the Playing of AutoDJ (must be open in browser)</li>
-</ul>
-</li>
 <li><code>!title</code> - Show Current Title for that Channel [<a href="https://docs.nightbot.tv/commands/title"><em>more info</em></a>]<ul>
 <li><code>&lt;title&gt;</code> - Set Current Title for that Channel</li>
 </ul>
@@ -185,5 +181,6 @@ function topFunction() {
 
 </body>
 </html>
+
 
 
