@@ -105,27 +105,40 @@ body  {
 <li><code>-removerole</code> - Remove a role from a user. (Usage:<i> -removerole &lt;@user&gt; &lt;role&gt;</i>) </li>
 <h2><font color="#dbdbdb">Audio 🎶</h2>
 
-<li><code>play</code> - Used to search & play music. (Usage: -play [YouTube song/URL])
-<li><code>stop</code> - Stop the current song, clear the queue & disconnect.</li>
-<li><code>pause</code> - Pause the current song.</li>
-<li><code>queue</code> - Display the current music queue. Also used to clear it. (Usage: -queue [clear])</li>
-<li><code>skip</code> - Skip to the next song in the queue.</li>
-<li><code>forward</code> - Skip X amount into the song. (Usage: -forward 5 minutes)</li>
-<li><code>loop</code> - Loop the current song indefinetly.</li>
-<li><code>rolesystem</code> - When enabled, the "Dj" role is required to use music commands</li>
-<li><code>volume</code> - Change the volume of the bot.</li>
+<li><code>-play</code> - Used to search & play music. (Usage: -play [YouTube song/URL])
+<li><code>-stop</code> - Stop the current song, clear the queue & disconnect.</li>
+<li><code>-pause</code> - Pause the current song.</li>
+<li><code>-queue</code> - Display the current music queue. Also used to clear it. (Usage: -queue [clear])</li>
+<li><code>-skip</code> - Skip to the next song in the queue.</li>
+<li><code>-forward</code> - Skip X amount into the song. (Usage: -forward 5 minutes)</li>
+<li><code>-loop</code> - Loop the current song indefinetly.</li>
+<li><code>-rolesystem</code> - When enabled, the "Dj" role is required to use music commands</li>
+<li><code>-volume</code> - Change the volume of the bot.</li>
 
 
 </li>
-<h2><font color="#dbdbdb">Hypixel </h2>
-<li><code>-play</code> Play a song<ul>
-<li><code>add</code> - Add Username to Regular UserLevel</li>
-<li><code>!title</code> - Show Current Title for that Channel [<a href="https://docs.nightbot.tv/commands/title"><em>more info</em></a>]<ul>
-<li><code>&lt;title&gt;</code> - Set Current Title for that Channel</li>
+<h2><font color="#dbddb">Hypixel </h2>
+<li><code>-stats</code> Display a player's Hypixel stats.<ul>
+
+<li><code>Blitz</code> - Display Blitz stats (Usage: -stats [Player] Blitz [Kits / (Kitname)])</li>
+<li><code>Megawalls</code> - Display MegaWalls stats (Usage: -stats [Player] MegaWalls [Class])</li>
+<li><code>Skywars</code> - Display Skywars stats (Usage: -stats [Player] Skywars)</li>
+<li><code>Bridge</code> - Display Bridge stats (Usage: -stats [Player] Skywars)</li>
+<li><code>TNT</code> - Display Skywars stats (Usage: -stats [Player] TNT)</li>
+<li><code>Arcade</code> - Display Arcade stats (Usage: -stats [Player] Arcade)</li>
+<li><code>CrazyWalls</code> - Display CrazyWalls stats (Usage: -stats [Player] CrazyWalls)</li>
+<li><code>Walls</code> - Display Walls stats (Usage: -stats [Player] Walls)</li>
+<li><code>UHC</code> - Display UHC stats (Usage: -stats [Player] UHC)</li>
 </ul>
+<li><code>-boosters</code> - Display the current booster queue</li>
+<li><code>-history</code> - Display the name history of a player</li>
+<li><code>-guild</code> - Display someone's guild</li>
+<li><code>-watchdog</code> - Display the watchdog stats</li>
+<li><code>-session</code> - Get a current session of a player. Lists all players in the server aswell</li>
+<li><code>-leaderboard</code> - Display a leaderboard.<ul>
+<li><code>Blitz</code> - Currently only supports blitz</li>
 </li>
-<li><code>!winner</code> - Get Random Chatter from your Channel [<a href="https://docs.nightbot.tv/commands/winner"><em>more info</em></a>]</li>
-<li></li>
+
 
 <a href="javascript:topFunction()"><b><center><font size="3">Go to top</font></center></b></a>
 </ul>
