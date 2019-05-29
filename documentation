@@ -110,23 +110,46 @@ body  {
 
 <p><font color="#e8e8e8">Syntax between <code>&lt; &gt;</code> is required & syntax between <code>[ ]</code> is optional.</p>
 <ul>
+
 <div align="left">
 <font color="#dbdbdb">
 
 
 
+<h2><font color="#dbdbdb" >Bot 🤖</h2>
+<a href="javascript:toggleDiv('bot')" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Toggle</a>
+
+<div id="bot" class='hidden'>
+<br>
+
+<li><code>-prefix</code> - Change the prefix for the bot. (Usage:<i> -prefix &lt;text&gt;</i>) </li>
+<li><code>-senddm</code> - Make the bot DM someone. (Usage:<i> -senddm &lt;@user&gt; &lt;text&gt;</i>) </li>
+<li><code>-filterlink</code> - Toggle link filtering. While enabled, it will add the X emote to links/images  </li>
+<li><code>-autopurge</code> - Toggle automatic message purging in the channel. Useful for commands etc. </li>
+<li><code>-cooldown</code> - Toggles a 10 second cooldown for commands. </li>
+<li><code>-suggestion</code> - Suggest something for the bot. </li>
+<li><code>-bug</code> - Report a bug  </li>
+<li><code>-perms</code> - Display your or someone else's permissions in the server.  </li>
+<li><code>-emote add</code> - Create a custom emoji. (Usage:<i> -emoji add &lt;emojiName&gt; &lt;emojiUrl&gt;</i>)</li>
+
+</div>
 
 <h2><font color="#dbdbdb" >Moderation 🔧</h2>
 <a href="javascript:toggleDiv('moderation')" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Toggle</a>
 
 <div id="moderation" class='hidden'>
 <br>
+<li><code>-warn</code> - Warn a user (Usage:<i> -warn &lt;@user&gt; You're rude</i>) </li>
+<li><code>-warns</code> - View someone's warnings. (Usage:<i> -warns &lt;@user&gt;</i>) </li>
 <li><code>-kick</code> - Kicks a specific user. (Usage:<i> -kick &lt;@user&gt; You've been kicked</i>) </li>
 <li><code>-ban</code> - Bans a specific user. (Usage:<i> -ban &lt;@user&gt; You've been banned</i>) </li>
+<li><code>-banlist</code> - Display the banlist.</li>
 <li><code>-unban</code> - Unbans a specific user. (Usage:<i> -unban &lt;@user&gt;</i>) </li>
 <li><code>-mute</code> - Mutes a specific user. (Usage:<i> -mute &lt;@user&gt; You've been muted</i>) </li>
 <li><code>-unmute</code> - Unmutes a specific user. (Usage:<i> -unban &lt;@user&gt;</i>) </li>
+<li><code>-mutetoggle</code> - Toggles wether or not the bot will mute you if you spam. (Requires a role named Muted.</i>) </li>
 <li><code>-filter</code> - Show Current Game for that Channel<ul>
+
 <li><code>add</code> - Add a word/string to the filter (Usage:<i> -filter add poop</i>)</li>
 <li><code>remove</code> - Remove a word/string to the filter (Usage:<i> -filter remove poop</i>)</li>
 <li><code>list</code> - Returns a list of all filtered text</li></ul></li>
@@ -158,7 +181,7 @@ body  {
 </div>
 
 </li>
-<h2><font color="#dbddb">Hypixel </h2>
+<h2><font color="#dbdbdb">Hypixel </h2>
 <a href="javascript:toggleDiv('hypixel')" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Toggle</a>
 
 <div id="hypixel" class='hidden'>
