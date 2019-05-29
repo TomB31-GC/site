@@ -2,6 +2,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,6 +34,33 @@
 </body>
 
 <style>
+a.button1{
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#FFFFFF;
+ text-align:center;
+ transition: all 0.2s;
+}
+a.button1:hover{
+ color:#000000;
+ background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+ a.button1{
+  display:block;
+  margin:0.4em auto;
+ }
+}
+.hidden{
+       display:none;
+    }
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -87,7 +115,12 @@ body  {
 
 
 
+
 <h2><font color="#dbdbdb" >Moderation 🔧</h2>
+<a href="javascript:toggleDiv('moderation')" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Toggle</a>
+
+<div id="moderation" class='hidden'>
+<br>
 <li><code>-kick</code> - Kicks a specific user. (Usage:<i> -kick &lt;@user&gt; You've been kicked</i>) </li>
 <li><code>-ban</code> - Bans a specific user. (Usage:<i> -ban &lt;@user&gt; You've been banned</i>) </li>
 <li><code>-unban</code> - Unbans a specific user. (Usage:<i> -unban &lt;@user&gt;</i>) </li>
@@ -103,7 +136,14 @@ body  {
 <li><code>-purge</code> - Purges an amount of messages. (Usage:<i> -purge &lt;number&gt;</i>) </li>
 <li><code>-addrole</code> - Add a role to all/a user. (Usage:<i> -addrole &lt;@user/everyone&gt; &lt;role&gt;</i>) </li>
 <li><code>-removerole</code> - Remove a role from a user. (Usage:<i> -removerole &lt;@user&gt; &lt;role&gt;</i>) </li>
+</div>
+
 <h2><font color="#dbdbdb">Audio 🎶</h2>
+
+<a href="javascript:toggleDiv('audio')" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Toggle</a>
+
+<div id="audio" class='hidden'>
+ <br>
 
 <li><code>-play</code> - Used to search & play music. (Usage: -play [YouTube song/URL])
 <li><code>-stop</code> - Stop the current song, clear the queue & disconnect.</li>
@@ -115,9 +155,15 @@ body  {
 <li><code>-rolesystem</code> - When enabled, the "Dj" role is required to use music commands</li>
 <li><code>-volume</code> - Change the volume of the bot.</li>
 
+</div>
 
 </li>
 <h2><font color="#dbddb">Hypixel </h2>
+<a href="javascript:toggleDiv('hypixel')" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Toggle</a>
+
+<div id="hypixel" class='hidden'>
+<br>
+
 <li><code>-stats</code> Display a player's Hypixel stats.<ul>
 
 <li><code>Blitz</code> - Display Blitz stats (Usage: -stats [Player] Blitz [Kits / (Kitname)])</li>
@@ -175,7 +221,9 @@ Last updated on 11th Febuary 2019
 <script>
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
-
+function toggleDiv(divId) {
+        $("#"+divId).toggle(); 
+    }
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("myBtn").style.display = "block";
