@@ -117,9 +117,8 @@ body  {
 
 
 <h2><font color="#dbdbdb" >Bot 🤖</h2>
-<a href="javascript:toggleDiv('bot')" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Toggle</a>
 
-<div id="bot" class='hidden'>
+<div id="bot">
 <br>
 
 <li><code>-prefix</code> - Change the prefix for the bot. (Usage:<i> -prefix &lt;text&gt;</i>) </li>
@@ -135,9 +134,9 @@ body  {
 </div>
 
 <h2><font color="#dbdbdb" >Moderation 🔧</h2>
-<a href="javascript:toggleDiv('moderation')" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Toggle</a>
 
-<div id="moderation" class='hidden'>
+
+<div id="moderation">
 <br>
 <li><code>-warn</code> - Warn a user (Usage:<i> -warn &lt;@user&gt; You're rude</i>) </li>
 <li><code>-warns</code> - View someone's warnings. (Usage:<i> -warns &lt;@user&gt;</i>) </li>
@@ -163,9 +162,8 @@ body  {
 
 <h2><font color="#dbdbdb">Audio 🎶</h2>
 
-<a href="javascript:toggleDiv('audio')" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Toggle</a>
 
-<div id="audio" class='hidden'>
+<div id="audio">
  <br>
 
 <li><code>-play</code> - Used to search & play music. (Usage: -play [YouTube song/URL])
@@ -182,9 +180,9 @@ body  {
 
 </li>
 <h2><font color="#dbdbdb">Hypixel </h2>
-<a href="javascript:toggleDiv('hypixel')" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Toggle</a>
 
-<div id="hypixel" class='hidden'>
+
+<div id="hypixel">
 <br>
 
 <li><code>-stats</code> Display a player's Hypixel stats.<ul>
@@ -265,7 +263,6 @@ function topFunction() {
 
 </body>
 </html>
-
 
 
 
