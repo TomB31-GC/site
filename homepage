@@ -76,12 +76,12 @@
             <hr class="w3-border-grey" style="margin:auto;width:50%">
             <h1>
                <font size="5,5">
-                  <center>Members: 21396</center>
+                  <center>Members: {membercount}</center>
                </font>
             </h1>
             <h1>
                <font size="5,5">
-                  <center>Servers: 293</center>
+                  <center>Servers: {guildcount}</center>
                </font>
             </h1>
              <p> </p>
