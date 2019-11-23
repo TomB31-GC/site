@@ -1,80 +1,90 @@
-
 <!DOCTYPE html>
 <html>
-   <title>Homepage - Blitz</title>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link href="http://fonts.googleapis.com/css?family=Lato:300|Open+Sans+Condensed:300" rel="stylesheet" type="text/css">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-   <link rel="shortcut icon" href="https://i.imgur.com/x3Uy0AZ.png">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<title>Homepage - Blitz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://fonts.googleapis.com/css?family=Lato:300|Open+Sans+Condensed:300" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="shortcut icon" href="https://i.imgur.com/x3Uy0AZ.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-      }
-      @media (min-width: 720px) {
-      h1 {
-      font-size: 44px;
-      }
-      }
-      .semi-transparent-button {
-      display: block;
-      box-sizing: border-box;
-      margin: 0 auto;
-      padding: 8px;
-      width:100%;
-      max-width: 2000px;
-      background: #fff; /* fallback color for old browsers */
-      background: rgba(255, 255, 255, 0.2);
-      border-radius: 8px;
-      color: #fff;
-      text-align: center;
-      text-decoration: none;
-      letter-spacing: 1px;
-      transition: all 0.7s ease-out;
-      }
-      .semi-transparent-button:hover,
-      .semi-transparent-button:focus,
-      .semi-transparent-button:active {
-      background: #fff;
-      color: #000;
-      transition: all 0.3s ease-in;
-      }
-      .semi-transparent:focus {
-      outline: none;
-      }
-      .with-border {
-      border: 1px solid #fff;
-      }
-   </style>
-   <style>
-      body,h1 {font-family: "Raleway", sans-serif}
-      body, html {height: 100%}
-      .bgimg {
-      background-image: url('https://i.imgur.com/413hXJo.jpg');
-      min-height: 100%;
-      background: url("https://i.imgur.com/413hXJo.jpg ") no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      text-align: center;
-      margin: 0 auto;
-      }
-   </style>
-   <body>
-   		
-      <div class="w3-top">	
-      	
-         <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+}
+@media (min-width: 720px) {
+    h1 {
+        font-size: 44px;
+    }
+}
+.semi-transparent-button {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    width: 100%;
+    max-width: 2000px;
+    background: #fff;
+    /* fallback color for old browsers */
+    
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.7s ease-out;
+}
+.semi-transparent-button:hover,
+.semi-transparent-button:focus,
+.semi-transparent-button:active {
+    background: #fff;
+    color: #000;
+    transition: all 0.3s ease-in;
+}
+.semi-transparent:focus {
+    outline: none;
+}
+.with-border {
+    border: 1px solid #fff;
+}
+</style>
+<style>
+    body,
+    h1 {
+        font-family: "Raleway", sans-serif
+    }
+    
+    body,
+    html {
+        height: 100%
+    }
+    
+    .bgimg {
+        background-image: url('https://i.imgur.com/413hXJo.jpg');
+        min-height: 100%;
+        background: url("https://i.imgur.com/413hXJo.jpg ") no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        text-align: center;
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+
+    <div class="w3-top">
+
+        <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
             <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
             <a href="https://blitznetwork.club/" class="w3-bar-item w3-button w3-theme-l1"><font color="white">Home</a>
             <a href="documentation" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Documentation</a>
-            	
+
             <a href="about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
-         </div>
-      </div>
-      <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-         <div class="w3-display-topleft w3-padding-large w3-xlarge">
-         </div>
-         <div class="w3-display-middle ">
+        </div>
+    </div>
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+        <div class="w3-display-topleft w3-padding-large w3-xlarge">
+        </div>
+        <div class="w3-display-middle ">
             <h1 class="w3-jumbo w3-animate-top">BLITZ BOT</h1>
             <hr class="w3-border-grey" style="margin:auto;width:50%">
             <h1>
@@ -86,23 +96,39 @@
                <font size="5,5">
                   <center>Servers: {guildcount}</center>
                </font>
-               	
-            </h1>
-             <p> </p>
-             <br/> 
-             
-            <a class="semi-transparent-button" href="https://discordapp.com/oauth2/authorize?&client_id=533604970147086358&scope=bot&permissions=8"><font size="7">Invite Blitz</font></a>
-            <br/><br/>
-            <br><br> <h2><center><font size="4,8">Partnered with <a href="partner" target="_blank">Sparked Host<font></a></center></h2>
-            
-         </div>
-         <div align="right">
 
-			<br><br><br><br><br><br><br><br><br><br><br><br>
-                           <iframe src="https://discordapp.com/widget?id=496747452074819584&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe></div>
-         <div class="w3-display-bottomleft w3-padding-large">
+            </h1>
+            <p> </p>
+            <br/>
+
+            <a class="semi-transparent-button" href="https://discordapp.com/oauth2/authorize?&client_id=533604970147086358&scope=bot&permissions=8"><font size="7">Invite Blitz</font></a>
+            <br/>
+            <br/>
+            <br>
+            <br>
+            <h2><center><font size="4,8">Partnered with <a href="partner" target="_blank">Sparked Host<font></a></center></h2>
+
+        </div>
+        <div align="right">
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <iframe src="https://discordapp.com/widget?id=496747452074819584&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+        </div>
+        <div class="w3-display-bottomleft w3-padding-large">
             Created by <a href="https://discordapp.com/users/496747452074819584" target="_blank">Tom </a>
-         </div>
-      </div>
-   </body>
+        </div>
+    </div>
+</body>
+
 </html>
