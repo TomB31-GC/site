@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <title>Homepage - Blitz</title>
@@ -56,8 +57,11 @@
     body,
     html {
         height: 100%
+        
     }
-    
+    ::-webkit-scrollbar {
+  width: 0px;
+}
     .bgimg {
         background-image: url('https://i.imgur.com/413hXJo.jpg');
         min-height: 100%;
@@ -89,12 +93,12 @@
             <hr class="w3-border-grey" style="margin:auto;width:50%">
             <h1>
                <font size="5,5">
-                  <center>Members: {membercount}</center>
+                  <center>Members: 22885</center>
                </font>
             </h1>
             <h1>
                <font size="5,5">
-                  <center>Servers: {guildcount}</center>
+                  <center>Servers: 402</center>
                </font>
 
             </h1>
