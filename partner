@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
    <title>Homepage - Partner</title>
@@ -9,7 +10,7 @@
    <link rel="shortcut icon" href="https://i.imgur.com/x3Uy0AZ.png">
    
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-   <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/1EBE8010-9BBB-584E-940B-67B05283E6F5/main.js" charset="UTF-8"></script><style>
+<style>
       }
       @media (min-width: 720px) {
       h1 {
@@ -74,7 +75,7 @@
          </div>
          
          <div class="w3-display-middle ">
-         	<img src="https://sparkedhost.us/assets/img/not_slanted.png" alt="Sparked Host LLC" style="width:512px;height:256px;">
+         	<img src="https://sparkedhost.com/assets/img/not_slanted.png" alt="Sparked Host LLC" style="width:512px;height:256px;">
             <h1 class="w3-jumbo w3-animate-top">BLITZ BOT</h1>
             <hr class="w3-border-grey" style="margin:auto;width:50%">
             <h1>
